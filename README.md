@@ -1,11 +1,16 @@
+First of all:
+* Clone the project to your computer
+* In this project is GCS used
 * Setup needed requirements into your env `pip install -r requirements.txt`
 * Add your code in `src/main/`
 * Test your code with `src/tests/`
 * Package your artifacts
 * Modify dockerfile if needed
-* Build and push docker image
-* Deploy infrastructure with terraform
+* Build and push the docker image
+* To deploy infrastructure with Terraform I ran the commands:
+  
 ```
+
 terraform init
 terraform plan -out terraform.plan
 terraform apply terraform.plan
